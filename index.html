@@ -6,6 +6,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>ISLAM BOXING</title>
       <link rel="shortcut icon" href="./imgages/icon.ico" type="image/x-icon">
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+      <!-- Aos animate -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <!-- CDN -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" href="./css/main.css">
@@ -15,7 +21,7 @@
       <nav class="nav-bar">
             <div class="container">
                   <div class="nav">
-                        <div class="left">
+                        <div class="left" data-aos="fade-right" data-aos-duration="1500">
                               <div class="icon">
                                     <img src="./imgages/boxing-icon.avif" alt="">
                               </div>
@@ -34,7 +40,7 @@
                         <div class="container">
                               <div class="main-content">
                         <div class="main-left"></div>
-                        <div class="main-right">
+                        <div class="main-right" data-aos="flip-left" data-aos-duration="1500">
                               <h1>I am a boxer</h1>
                               <p>
                                     My name is Isroilov Islambek. I have won many competitions. I have been boxing since I was 9 years old.
@@ -46,12 +52,29 @@
                               </div>
             </div>
             </div>
+
+            <div class="about">
+                  <div class="container">
+                        <div class="abou-content">
+                              <h1 class="about-title animate__animated animate__bounce animate__slow animate__infinite animate__zoomInDown" >About Me</h1>
+                              <div class="about-img" data-aos="flip-left" data-aos-duration="1500">
+                                    <img src="./imgages/about me.png" alt="">
+                              </div>
+                              <p>My name is Islombek. My surname is Isroilov. I'm from Uzbekistan. 
+                                 I live in Andijan. I'm 12 years old. I was born in 2012. I spend a lot of time working out.
+                                 Boxing is my hobby. I'm a strong boxer boy when I grow up. I have been boxing for 3 years.
+                                 I've had a lot of growth compared to before                                 
+                              </p>
+                              <button>Follow me</button>
+                        </div>
+                  </div>
+            </div>
             <section class="battles">
                   <div class="container">
                         <div class="battles-content">
                               <h1 class="battle-title">My Prizes</h1>
                               <div class="battle-cards">
-                                    <div class="card">
+                                    <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                                           <img src="./imgages/medal.avif" alt="">
                                           <div class="texts">
                                                 <h2>General Directorate of Sports Development of Jizzakh Region of the Republic of Uzbekistan.</h2>
@@ -60,7 +83,7 @@
                                                       APPROVED</p>
                                           </div>
                                     </div>
-                                    <div class="card">
+                                    <div class="card" data-aos="zoom-in" data-aos-duration="1500">
                                           <img src="./imgages/trophy.avif" alt="">
                                           <div class="texts">
                                                 <h2>TASHKENT Region of the Republic of Uzbekistan Athlete who served in Uzbekistan among juniors born in 2009-2010-2011-2012 in boxing
@@ -69,7 +92,7 @@
                                                       APPRECIATED</p>
                                           </div>
                                     </div>
-                                    <div class="card">
+                                    <div class="card" data-aos="zoom-in" data-aos-duration="2000">
                                           <img src="./imgages/belt.png" alt="">
                                           <div class="texts">
                                                 <h2>General Directorate of Sports Development of Andijon Region of the Republic of Uzbekistan.</h2>
@@ -98,5 +121,13 @@
                   </div>
             </div>
       </footer>
+
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+            AOS.init(
+                  
+            );
+          </script>
 </body>
 </html>

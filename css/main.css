@@ -7,6 +7,9 @@
       font-weight: 400;
       font-style: normal;
 }
+body{
+      overflow-x: hidden;
+}
 .container{
       max-width: 1420px;
       margin: 0 auto;
@@ -124,4 +127,28 @@ button:hover{
       display: flex;
       align-items: center;
       justify-content: space-between;
+}
+.about{
+      margin-top: 50px;
+}
+.abou-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+.about-title{
+      color: black;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 20px;
+}
+.abou-content p{
+      color: black;
+      font-size: 18px;
+      font-weight: 400;
+      max-width: 600px;
+      margin-top: 20px;
+      margin-bottom: 15px;
 }
