@@ -20,6 +20,17 @@ body{
       align-items: center;
       justify-content: space-between;
 }
+.icon{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+}
+.icon span{
+      color: black;
+      font-size: 24px;
+      margin-bottom: 20px;
+      font-weight: 700;
+}
 .icon img{
       width: 90px;
 }
